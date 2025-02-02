@@ -526,10 +526,15 @@
             </div>
             <br />
             <!-- Formulario -->
-            <form action="#" id="formulario" style="display: none">
+            <form
+                action="https://formsubmit.co/rdc.1985@gmail.com"
+                method="POST"
+                id="formulario"
+                style="display: none"
+            >
                 <label for="nombre">Nombre</label>
                 <br />
-                <input type="text" name="nombre" id="nombre" />
+                <input type="text" name="nombre" id="nombre" required />
                 <br />
                 <label for="email">Email</label>
                 <br />
@@ -539,6 +544,7 @@
                     id="email"
                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                     placeholder="tucorreo@email.com"
+                    required
                 />
                 <br />
                 <label for="mensaje">Escribe tu mensaje</label>
@@ -548,8 +554,10 @@
                     id="mensaje"
                     cols="30"
                     rows="10"
+                    required
                 ></textarea>
                 <br />
+                <input type="hidden" name="_captcha" value="false" />
                 <input type="submit" value="Enviar" />
             </form>
         </section>
@@ -567,6 +575,6 @@
         <hr />
     </body>
     <footer>
-        <p>Copyright © 2025 Rodrigo Donoso. Todos los derechos reservados</p>
+        <p>Copyright © 2025 Rodrigo Donoso Cáceres</p>
     </footer>
 </html>
