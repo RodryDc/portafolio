@@ -164,3 +164,8 @@ p {
 .accordion-collapse {
     overflow: hidden;
 }
+
+.nav-item:hover {
+    background-color: #0056b3;
+    border-radius: 10px;
+}
