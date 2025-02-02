@@ -4,13 +4,15 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./assets/css/style.css" />
-
         <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
             rel="stylesheet"
-            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-            crossorigin="anonymous"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
         <title>Portafolio RDC</title>
     </head>
@@ -77,37 +79,18 @@
                             <li class="nav-item">
                                 <a
                                     class="nav-link active"
-                                    href="./assets/docs/Curriculum.pdf"
+                                    href="./assets/docs/Currículum Rodrigo Donoso.pdf"
                                     >CURRICULUM</a
                                 >
                             </li>
                         </ul>
-
-                        <a
-                            href="https://www.linkedin.com/in/rodrigo-donoso-caceres/"
-                        >
-                            <img
-                                src="./assets/img/linkedin.png"
-                                class="d-flex"
-                                style="width: 30px; height: 30px"
-                                alt="linkedin"
-                            />
-                        </a>
-                        <a href="https://github.com/RodryDc" class="ms-3">
-                            <img
-                                src="./assets/img/github.png"
-                                class="d-flex"
-                                style="width: 30px; height: 30px"
-                                alt="github"
-                            />
-                        </a>
                     </div>
                 </div>
             </nav>
         </header>
         <!--Sobre mi -->
         <section id="sobremi" class="m-3">
-            <h2>¡Hola, soy Rodrigo Donoso!</h2>
+            <h1 class="text-center">¡Hola, soy Rodrigo Donoso Cáceres!</h1>
             <div
                 class="card mb-3"
                 style="max-width: auto; background-color: transparent"
@@ -115,10 +98,9 @@
                 <div class="row g-0">
                     <div class="col-md-4 d-flex justify-content-center">
                         <img
-                            src="./assets/img/Profile2.png"
-                            class="img-fluid rounded-start"
+                            class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                            src="/assets/img/profileRdc.png"
                             alt="Rodrigo Donoso"
-                            style="width: 80%; height: 80%; align-self: center"
                             loading="lazy"
                         />
                     </div>
@@ -138,13 +120,6 @@
                                 barreras geográficas.
                             </p>
                             <p>
-                                Mi habilidad para trabajar tanto en el frontend
-                                como en el backend me permite abordar proyectos
-                                de manera integral, asegurando que cada detalle,
-                                desde la interfaz de usuario hasta la lógica del
-                                servidor se hagan de la mejor manera posible.
-                            </p>
-                            <p>
                                 Me apasiona resolver problemas complejos y
                                 convertir ideas en soluciones digitales que
                                 realmente marquen la diferencia. Para mí, el
@@ -155,20 +130,49 @@
                             </p>
 
                             <p class="card-text btn btn-primary" id="curri">
-                                <a href="./assets/docs/Curriculum.pdf"
+                                <a
+                                    href="./assets/docs/Curriculum Rodrigo Donoso.pdf"
                                     ><small>Descarga mi curriculum</small></a
                                 >
                             </p>
+                            <div class="social-links">
+                                <a
+                                    href="https://www.facebook.com/RygoDC"
+                                    target="_blank"
+                                    title="Facebook"
+                                    ><i class="fab fa-facebook-f"></i
+                                ></a>
+                                <a
+                                    href="https://www.instagram.com/rygodc/"
+                                    target="_blank"
+                                    title="Instagram"
+                                    ><i class="fab fa-instagram"></i
+                                ></a>
+                                <a
+                                    href="https://www.linkedin.com/in/rodrigo-donoso-caceres/"
+                                    target="_blank"
+                                    title="LinkedIn"
+                                    ><i class="fab fa-linkedin-in"></i
+                                ></a>
+                                <a
+                                    href="https://github.com/RodryDc"
+                                    target="_blank"
+                                    title="GitHub"
+                                    ><i class="fab fa-github"></i
+                                ></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <hr>
+        <hr />
         <!--Habilidades -->
         <section id="skills">
             <h2>HABILIDADES</h2>
-            <div class="habilidades d-flex flex-wrap justify-content-center">
+            <div
+                class="habilidades d-flex flex-wrap justify-content-center align-items-around gap-5"
+            >
                 <div class="habilidad" id="habilidad1">
                     <img src="./assets/img/html.png" alt="HTML" />
                 </div>
@@ -190,11 +194,32 @@
                 <div class="habilidad" id="habilidad7">
                     <img src="./assets/img/csh.png" alt="C#" />
                 </div>
+                <div class="habilidad" id="habilidad14">
+                    <img src="./assets/img/dart.png" alt="DART" />
+                </div>
+                <div class="habilidad" id="habilidad15">
+                    <img src="./assets/img/flutter.png" alt="FLUTTER" />
+                </div>
                 <div class="habilidad" id="habilidad8">
                     <img src="./assets/img/unity.jpeg" alt="UNITY" />
                 </div>
                 <div class="habilidad" id="habilidad9">
                     <img src="./assets/img/vsc.png" alt="VISUALCODE" />
+                </div>
+                <div class="habilidad" id="habilidad10">
+                    <img
+                        src="./assets/img/React.png"
+                        alt="REACT Y REACT NATIVE"
+                    />
+                </div>
+                <div class="habilidad" id="habilidad11">
+                    <img src="./assets/img/django-python.png" alt="DJANGO" />
+                </div>
+                <div class="habilidad" id="habilidad12">
+                    <img src="./assets/img/angular.jpeg" alt="ANGULAR" />
+                </div>
+                <div class="habilidad" id="habilidad13">
+                    <img src="./assets/img/github.png" alt="GITHUB" />
                 </div>
             </div>
         </section>
@@ -219,7 +244,6 @@
                             zombies y saltando obstaculos. (Actualmente esta
                             desactivado por desactualización)
                         </p>
-                        <a href="#" class="btn btn-primary">Play Store</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem">
@@ -238,11 +262,36 @@
                             disponible en el menor tiempo posible con garantia
                             extendida y mantenimiento post venta.
                         </p>
-                        <a
-                            href="https://tulactanciafeliz.com/"
-                            class="btn btn-primary"
-                            >TuLactanciaFeliz.com</a
-                        >
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem">
+                    <img
+                        src="./assets/img/bibliodj.png"
+                        class="card-img-top"
+                        alt="AppWebDjango"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">App Web Biblioteca Vecinal</h5>
+                        <p class="card-text">
+                            App desarrollada en Python y Django con PostgreSQL y
+                            CSS con Bootstrap, que permite a los usuarios crear,
+                            editar y eliminar libros de una biblioteca.
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem">
+                    <img
+                        src="./assets/img/rentaldj.png"
+                        class="card-img-top"
+                        alt="AppWebDjango"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">App Web Rental Ski</h5>
+                        <p class="card-text">
+                            App desarrollada en Python y Django con PostgreSQL y
+                            CSS con Bootstrap, que permite a los usuarios
+                            arrendar elementos de una tienda de ski.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -252,42 +301,76 @@
         <!-- Formación -->
         <section id="formacion" class="m-3">
             <h2>FORMACIÓN ACADEMICA</h2>
-            <div class="formaciones d-flex flex-wrap justify-content-center"">
-                <div class="imagen">
-                    <img src="./assets/img/ULS.png" alt="ULS" />
-                    <br>
-                    <p id="texto">
-                        Ingeniería en Informática y Licenciatura en ciencias de
-                        la informática
-                    </p>
+            <div
+                class="proyectos_card m-3 d-flex justify-content-center flex-wrap gap-5"
+            >
+                <div class="card" style="width: 18rem">
+                    <img
+                        src="./assets/img/ULS.png"
+                        class="card-img-top"
+                        alt="ULS"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">
+                            Ingeniería en Informática y Licenciatura en ciencias
+                            de la informática
+                        </p>
+                    </div>
                 </div>
-                <div class="imagen">
-                    <img src="./assets/img/ECAMP.png" alt="ECAMP" />
-                    <br>
-                    <p id="texto">
-                        Bootcamp Desarrollo de Aplicaciones Full Stack Python
-                        Trainee
-                    </p>
+                <div class="card" style="width: 18rem">
+                    <img
+                        src="./assets/img/ECAMP.png"
+                        class="card-img-top"
+                        alt="ECAMP"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">
+                            Bootcamp Desarrollo de Aplicaciones Full Stack
+                            Python Trainee
+                        </p>
+                    </div>
                 </div>
-                <div class="imagen">
-                    <img src="./assets/img/EPSUM.png" alt="EPSUM" />
-                    <br>
-                    <p id="texto">
-                        Formación Profesional como Desarrollador de Aplicaciones
-                        Multiplataforma
-                    </p>
+                <div class="card" style="width: 18rem">
+                    <img
+                        src="./assets/img/EPSUM.png"
+                        class="card-img-top"
+                        alt="EPSUM"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">
+                            Formación Profesional como Desarrollador de
+                            Aplicaciones Multiplataforma
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="formaciones2 d-flex flex-wrap justify-content-center">
-                <div class="imagen">
-                    <img src="./assets/img/ONDAS.png" alt="ONDASFORMACION" />
-                    <br>
-                    <p id="texto">Desarrollador de Páginas Web con Wordpress</p>
+                <div class="card" style="width: 18rem">
+                    <img
+                        src="./assets/img/ondasform.webp"
+                        class="card-img-top"
+                        alt="ONDASFORMACION"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">
+                            Desarrollador de Páginas Web con Wordpress
+                        </p>
+                    </div>
                 </div>
-                <div class="imagen">
-                    <img src="./assets/img/IACC.png" alt="IACC" />
-                    <br>
-                    <p id="texto">Licenciado de Contador</p>
+
+                <div class="card" style="width: 18rem">
+                    <img
+                        src="./assets/img/IACC.png"
+                        class="card-img-top"
+                        alt="IACC"
+                    />
+                    <div class="card-body text-center">
+                        <h5 class="card-title"></h5>
+
+                        <p class="card-text">Egregado de la Contabilidad</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -338,11 +421,46 @@
                             aria-expanded="false"
                             aria-controls="collapseTwo"
                         >
-                            Deportes e Ingeniería Spa | Enero 2014 - Abril 2023
+                            Masticket - Agencia de marketing One to One |
+                            Febrero 2021 - Abril 2024
                         </button>
                     </h2>
                     <div
                         id="collapseTwo"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionExample"
+                    >
+                        <div class="accordion-body">
+                            <strong
+                                >Asesor de ventas. y atención al cliente </strong
+                            ><br />
+                            - Identificar y prospectar clientes potenciales.
+                            <br />
+                            - Presentar productos o servicios a clientes
+                            potenciales de manera persuasiva y convincente.
+                            <br />
+                            - Resolver consultas y objeciones de los clientes
+                            sobre productos o servicios. <br />
+                            - Realizar seguimiento de clientes potenciales y
+                            mantener registros precisos de las interacciones.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree"
+                            aria-expanded="false"
+                            aria-controls="collapseThree"
+                        >
+                            Deportes e Ingeniería Spa | Enero 2014 - Abril 2023
+                        </button>
+                    </h2>
+                    <div
+                        id="collapseThree"
                         class="accordion-collapse collapse"
                         data-bs-parent="#accordionExample"
                     >
@@ -360,15 +478,15 @@
                             class="accordion-button collapsed"
                             type="button"
                             data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree"
+                            data-bs-target="#collapseFour"
                             aria-expanded="false"
-                            aria-controls="collapseThree"
+                            aria-controls="collapseFour"
                         >
                             Fundación Emprepolis | Enero 2017 - Diciembre 2018
                         </button>
                     </h2>
                     <div
-                        id="collapseThree"
+                        id="collapseFour"
                         class="accordion-collapse collapse"
                         data-bs-parent="#accordionExample"
                     >
@@ -386,7 +504,7 @@
             </div>
         </section>
         <!-- Otras Facetas -->
-        <section id="otrasfacetas" class="m-3" style="text-align: center">
+        <section id="otrasfacetas" class="m-3 px-5" style="text-align: center">
             <h2>OTRAS FACETAS</h2>
             <p style="text-align: center">
                 Árbitro de Fútbol, creador del Staff: ÁRBITROS CLUB LA SERENA
@@ -532,6 +650,29 @@
         <hr />
     </body>
     <footer>
-        <p>Copyright © 2024 Rodrigo Donoso</p>
+        <p>Copyright © 2025 Rodrigo Donoso</p>
+        <div class="social-links">
+            <a
+                href="https://www.facebook.com/RygoDC"
+                target="_blank"
+                title="Facebook"
+                ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+                href="https://www.instagram.com/rygodc/"
+                target="_blank"
+                title="Instagram"
+                ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+                href="https://www.linkedin.com/in/rodrigo-donoso-caceres/"
+                target="_blank"
+                title="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="https://github.com/RodryDc" target="_blank" title="GitHub"
+                ><i class="fab fa-github"></i
+            ></a>
+        </div>
     </footer>
 </html>
